@@ -112,14 +112,3 @@ rm -rf database
 ```
 
 **Warning:** Resetting removes the saved account data. This is destructive and cannot be undone unless you have a backup.
-
-## Implementation Notes
-
-- **Terminal interface:** A numbered menu provides access to the application's core account and transaction operations.
-- **Persistent local data:** Banking data is saved in files under the runtime `database/` directory.
-- **Account credentials:** Account creation displays an account number and masks the PIN on its confirmation screen.
-- **Build workflow:** The `Makefile` is used to compile the program and includes a `reset` target.
-
-## Project Scope
-
-This is an educational banking-system implementation, **not a real banking service**. Use fictional accounts and test data rather than actual banking credentials or financial information.
